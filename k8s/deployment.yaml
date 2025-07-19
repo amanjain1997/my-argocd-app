@@ -15,5 +15,6 @@ spec:
       containers:
       - name: my-argocd-app
         image: my-argocd-app:latest
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
