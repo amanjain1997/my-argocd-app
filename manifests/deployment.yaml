@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-argocd-app
-          image: amanjain987/my-argocd-app:v2
+          image: amanjain987/my-argocd-app:v3
           ports:
             - containerPort: 80
