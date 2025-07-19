@@ -28,4 +28,5 @@ jobs:
           context: .
           push: true
           tags: amanjain987/my-argocd-app:latest
+          platforms: linux/amd64,linux/arm64
 
